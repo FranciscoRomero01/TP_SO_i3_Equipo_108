@@ -1,4 +1,4 @@
-Nombre: Francisco Romero
+﻿Nombre: Francisco Romero
 
 Configuración IP de Windows
 
@@ -25,3 +25,34 @@ Adaptador de Ethernet Ethernet 4:
    Puerta de enlace predeterminada . . . . . : 10.162.175.167
 
 Hora: 10:15
+
+Nombre: Lucas Caballero
+
+Configuración IP de Windows
+
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::2145:f7ca:3eea:3ce6%9
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.2.107
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.2.1
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::2820:7ecd:c222:88ae%7
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
+
+Adaptador de Ethernet Ethernet 3:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::44c3:6a1b:57dd:9da%6
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.80.1
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
+
+Hora: 20:16
