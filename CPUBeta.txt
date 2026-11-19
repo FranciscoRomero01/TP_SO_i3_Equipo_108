@@ -1,0 +1,61 @@
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 11
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 14
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 1024
+L2CacheSpeed                            :
+MaxClockSpeed                           : 3600
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                :
+SocketDesignation                       : U3E1
+Version                                 :
+VoltageCaps                             :
+Caption                                 : Intel64 Family 6 Model 158 Stepping 10
+Description                             : Intel64 Family 6 Model 158 Stepping 10
+InstallDate                             :
+Name                                    : Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : DESKTOP-PG5GCEJ
+CurrentClockSpeed                       : 3600
+Family                                  : 206
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                :
+UniqueId                                :
+UpgradeMethod                           : 50
+Architecture                            : 9
+AssetTag                                : To Be Filled By O.E.M.
+Characteristics                         : 236
+L3CacheSize                             : 6144
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 4
+NumberOfEnabledCore                     : 4
+NumberOfLogicalProcessors               : 4
+PartNumber                              : To Be Filled By O.E.M.
+ProcessorId                             : BFEBFBFF000906EA
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            : To Be Filled By O.E.M.
+ThreadCount                             : 4
+VirtualizationFirmwareEnabled           : False
+VMMonitorModeExtensions                 : False
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
