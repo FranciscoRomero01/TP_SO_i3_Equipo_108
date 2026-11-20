@@ -8,3 +8,8 @@ c- . git switch main (porque ya estaba en la rama de GAMMA y descargado todo el 
 
 Asi aparecian todos los cambios de la rama Lucas-mi-rama en el main.
 
+d- si, las ramas creadas por BETA y GAMMA quedan actualizadas
+e- habia dos ramas que se llamaban "romero" pero con una con "R" mayusculo y otra con "r" minuscula, y otra que no se podia crear la rama
+f- lo primero que hice fue usar el comando git switch Romero para que la carpeta del github se me actualice, y luego una vez que me saliera todo
+lo que hice fue modificar el archivo "Beta.txt" agregando mi nombre, apellido y el Ifconfig de mi maquina y despues la Hora, y una vez hecho
+lo que hice, puse el comando git add beta.txt, y luego el git commit -m para que comente lo que hice y para finalizar hice el git push para que se publicara al github
