@@ -16,3 +16,76 @@ f- . git shitch romero (para que me saliera lo actualizado de la carpeta)
    . git push
 
 Asi hice para que el repositorio se me actualice y pueda yo poner mis datos en el repositorio del github
+
+G)- Alfa
+
+1) BETA (Francisco Romero): crea el repo en GitHub (TP_SO_i3_Equipo_108)
+
+2) GAMMA (Lucas Caballero)
+git clone https://github.com/FranciscoRomero01/TP_SO_i3_Equipo_108.git
+cd TP_SO_i3_Equipo_108
+git checkout -b # su rama (Lucas-mi-rama)
+# editar datos.txt: nombre, IP, hora
+cat /proc/cpuinfo > CPUGamma.txt
+git add datos.txt CPUGamma.txt
+git commit -m "GAMMA agrega datos y CPUGamma"
+git push origin Caballero
+
+3) ALFA
+git clone https://github.com/FranciscoRomero01/TP_SO_i3_Equipo_108.git
+git fetch --all
+git checkout Lucas-mi-rama
+git pull origin Lucas-mi-rama
+# editar datos.txt, crear CPUAlfa.txt
+git add datos.txt CPUAlfa.txt
+git commit -m "ALFA agrega datos y CPUAlfa"
+git push origin Lucas-mi-rama
+
+4) BETA
+git fetch --all
+git checkout Lucas-mi-rama
+git pull origin Lucas-mi-rama
+# editar datos.txt, crear CPUBeta.txt
+git add datos.txt CPUBeta.txt
+git commit -m "BETA agrega datos y CPUBeta"
+git push origin Lucas-mi-rama
+
+5) BETA: merge a master (main)
+git checkout main
+git pull origin main
+git merge Lucas-mi-rama
+git add datos.txt
+git commit
+git push origin main
+
+6) BETA: rama con su apellido y beta.txt
+git checkout -b Romero
+# crear Beta.txt: nombre, ipconfig/ifconfig, hora
+git add Beta.txt
+git commit -m "BETA agrega Beta.txt"
+git push origin Romero
+
+7) GAMMA
+git fetch --all
+git checkout Romero
+git pull origin Romero
+# editar Beta.txt: nombre, ifconfig, hora
+git add Beta.txt
+git commit -m "GAMMA modifica Beta.txt"
+git push origin Romero
+# git add Beta.txt, git commit, git push origin Romero
+
+8) ALFALFA: modifica Beta.txt en la rama de BETA
+git fetch --all
+git checkout romero
+git pull origin romero
+cat Beta.txt
+git add Beta.txt
+git commit -m "ALFA modifica Beta.txt"
+git push origin romero
+
+9) BETA: merge de Beta.txt a master
+git checkout main
+git pull origin main
+git merge Romero
+git push origin main
