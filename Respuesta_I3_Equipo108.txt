@@ -1,0 +1,10 @@
+a- El master queda con el ultimo commit de ALFA modificando el archivo Beta.txt
+b- Si. Se puede ver todos los cambios que se realizaron.
+c- . git switch main (porque ya estaba en la rama de GAMMA y descargado todo el contenido)
+   . git merge Lucas-mi-rama
+   . git add . 
+   . git commit
+   . git push
+
+Asi aparecian todos los cambios de la rama Lucas-mi-rama en el main.
+
